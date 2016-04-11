@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Assignment</title>
+<body>
+
+
+
+<script>
+
+/*function Univ(name){
+	this.univ_name = name;
+}*/
+
+function Person(first, last, age, eye) {
+    this.Person_firstName = first;
+    this.Person_lastName = last;
+    this.Person_age = age;
+    this.Person_eyeColor = eye;
+}
+
+
+function Child (name,school){
+this.Child_name = name;
+this.Child_school = school;
+
+}
+
+
+/*Person.prototype = new Uinv("Wright");*/
+Child.prototype = new Person("abhi","yar",56,"black");
+var Child_details = new Child ("aky","Wright");
+
+/*Child.prototype.School="WrightState";
+var Bhanu = new Child("aky","Wright");
+console.log(Bhanu.Child_name);*/
+
+
+</script>
+
+</body>
+</html>
